@@ -14,7 +14,7 @@ import (
 func main() {
 	// Configure a logger
 	textHandler := slog.NewTextHandler(os.Stdout, nil)
-    logger := slog.New(textHandler)
+	logger := slog.New(textHandler)
 
 	var leftSlice []int
 	var rightSlice []int
@@ -41,7 +41,7 @@ func main() {
 		rightSlice = append(rightSlice, helpers.ConvertStrToInt(s[1]))
 	}
 
-	// Sort slices 
+	// Sort slices
 	slices.Sort(leftSlice)
 	slices.Sort(rightSlice)
 

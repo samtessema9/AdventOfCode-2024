@@ -11,7 +11,7 @@ func ConvertStrToInt(s string) int {
 	if err != nil {
 		slog.Error(err.Error())
 		os.Exit(1)
-	} 
-	
+	}
+
 	return num
 }

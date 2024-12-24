@@ -16,7 +16,7 @@ if ! [[ "$day" =~ ^[0-9]+$ ]]; then
     exit 1
 fi
 
-# Locate the .env file in the directory above
+# Locate the .env file
 env_file="./.env"
 
 if [ ! -f "$env_file" ]; then
